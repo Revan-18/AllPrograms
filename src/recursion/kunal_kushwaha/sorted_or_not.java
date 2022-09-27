@@ -1,4 +1,4 @@
-package Recursion.kunal_kushwaha;
+package recursion.kunal_kushwaha;
 
 public class sorted_or_not {
     public sorted_or_not() {

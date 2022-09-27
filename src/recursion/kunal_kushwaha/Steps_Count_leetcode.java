@@ -1,4 +1,4 @@
-package Recursion.kunal_kushwaha;
+package recursion.kunal_kushwaha;
 
 public class Steps_Count_leetcode {
     static int c = 0;

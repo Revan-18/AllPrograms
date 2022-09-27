@@ -1,6 +1,5 @@
 package frescoplay.polymorhism;
 
-import java.util.Iterator;
 import java.util.Scanner;
 
 abstract class Parent {
@@ -45,28 +44,27 @@ class ChildTwo extends Parent{
 		int j=0;
 		
 		for (int i = s; i <= e; i++) {
-		 int digits=1+(int)Math.log10(i);
-		 if(happy(i,digits))
+		 if(happy(i))
 			 num[j++]=String.valueOf(i);
 		}
 		
 		return num;
 	}
 	
-	static boolean happy(int n,int digits) {
+	static boolean happy(int n) {
 		if(n==4)
 			return false;
 		if(n==1)
 			return true;
-		digits = 1+(int)Math.log10(n);
+		int digits = 1 + (int) Math.log10(n);
 		int sum=0;
 		int temp=n;
-		for(int i=0;i<digits;i++) {
+		for(int i = 0; i< digits; i++) {
 			sum=sum+(int)Math.pow(temp%10, 2);
 			temp/=10;
 		}
 		
-		return happy(sum,digits);
+		return happy(sum);
 	}
 	
 	
@@ -84,11 +82,13 @@ public class Solution {
 		String[] ia= a.filter(s,e);
 		String[] sb= b.filter(s,e);
 		for (String v : ia)
-			System.out.print(ia);
+			if(v!=null)
+			System.out.print(v+" ");
 		
 		System.out.println();
-		for (String v1 : sb) 
-			System.out.print(v1);
+		for (String v1 : sb)
+			if(v1!=null)
+			System.out.print(v1+" ");
 		
 		
 	}

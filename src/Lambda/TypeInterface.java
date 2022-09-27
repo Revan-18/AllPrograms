@@ -1,7 +1,5 @@
 package Lambda;
 
-import com.sun.org.apache.xpath.internal.functions.FuncStringLength;
-
 public class TypeInterface {
     public static void main(String[] args) {
         StringLength str = s -> s.length();

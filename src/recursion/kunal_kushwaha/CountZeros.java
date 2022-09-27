@@ -1,4 +1,4 @@
-package Recursion.kunal_kushwaha;
+package recursion.kunal_kushwaha;
 
 import java.util.Scanner;
 

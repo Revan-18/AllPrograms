@@ -1,0 +1,7 @@
+1)why value of Integer is mutable because Integer class is final
+
+2)public int hashCode() {
+          int result = 17;
+          int result = 31 * result + this.orders.hashCode();
+          return result;
+      }

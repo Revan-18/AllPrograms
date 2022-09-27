@@ -1,4 +1,4 @@
-package Recursion.kunal_kushwaha;
+package recursion.kunal_kushwaha;
 
 public class Roteted_binary_search {
     public Roteted_binary_search() {

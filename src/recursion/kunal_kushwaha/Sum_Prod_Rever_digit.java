@@ -1,4 +1,4 @@
-package Recursion.kunal_kushwaha;
+package recursion.kunal_kushwaha;
 
 public class Sum_Prod_Rever_digit {
     static int sum = 0;

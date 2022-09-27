@@ -1,0 +1,17 @@
+Can I compile a java file with a different name than the class?
+
+https://stackoverflow.com/questions/1841847/can-i-compile-a-java-file-with-a-different-name-than-the-class#:~:text=yes%2C%20you%20can%20choose%20any,which%20the%20main%20method%20exist.
+
+in Java it only contain one public class
+
+  yes, you can choose any name for the file (.java). there is no matter to what are the
+- name of classes in that file means that class names may be totaly different from the file name.
+- you should compile the program with file name and you should run the program with the
+- class name in which the main method exist.
+
+
+how IOC works
+https://www.tutorialsteacher.com/ioc/inversion-of-control
+
+microservices blogs
+https://speakerdeck.com/mraible/reactive-microservices-with-spring-boot-and-jhipster-spring-io-2022

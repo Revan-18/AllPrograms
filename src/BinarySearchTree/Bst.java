@@ -3,7 +3,7 @@ package BinarySearchTree;
 public class Bst {
 
     static class Node{
-        int key;
+        Integer key;
         Node left,right;
 
         public Node(int key){

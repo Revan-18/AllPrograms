@@ -1,7 +1,7 @@
-package Recursion.kunal_kushwaha;
+package recursion.kunal_kushwaha;
 
-public class Nto1_infinite_recursion {
-    public Nto1_infinite_recursion() {
+public class Nto1 {
+    public Nto1() {
     }
 
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class Nto1_infinite_recursion {
     static void fun(int n) {
         if (n != 0) {
             System.out.println(n);
-            fun(n--);
+            fun(n - 1);
         }
     }
 }
