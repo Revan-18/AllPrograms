@@ -1,2 +1,19 @@
 # Project exclude paths
 /out/
+
+#java
+*.class
+
+#package files
+*.jar
+*.war
+*.ear
+
+#Exclude IDE specific files
+*.iml
+.idea
+.project
+.settings
+.classpath
+.pb
+
