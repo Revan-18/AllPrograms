@@ -1,4 +1,4 @@
-package Extra;
+package extra;
 
 // Java Program to Create An Immutable Class
 
