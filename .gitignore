@@ -10,7 +10,7 @@
 *.ear
 
 #Exclude IDE specific files
-*.iml
+.iml
 .idea
 .project
 .settings
